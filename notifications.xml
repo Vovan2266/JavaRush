@@ -1,3 +1,5 @@
 <application>
-  <component name="NotificationConfiguration" showBalloons="false" />
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="Web Deployment: Remote Host" displayType="TOOL_WINDOW" />
+  </component>
 </application>
