@@ -9,22 +9,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0710/Solution.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0711/Solution.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0712/Solution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0709/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0709/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0710/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0710/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0711/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0711/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0712/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0712/Условие.jrtc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0709/Условие.jrtc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0710/Условие.jrtc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0711/Условие.jrtc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0712/Условие.jrtc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0708/Solution.class" afterPath="$PROJECT_DIR$/out/production/1.JavaSyntax/com/javarush/task/task07/task0708/Solution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0708/Solution.java" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0708/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1145,7 +1135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488899187286</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Коммит">
+      <created>1489071844201</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1489071844201</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
