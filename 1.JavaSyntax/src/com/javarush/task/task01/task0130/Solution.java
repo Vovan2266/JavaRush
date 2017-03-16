@@ -6,20 +6,15 @@ package com.javarush.task.task01.task0130;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(convertCelsiumToFahrenheit(50));
+        System.out.println(convertCelsiumToFahrenheit(40));
     }
 
     public static double convertCelsiumToFahrenheit(int celsium) {
 
+        double TF = celsium * 1.8 + 32;
 
-        double t = celsium;
-        double y = 9 * t /5 + 32;
-        return y;
-
-
-
-
+        return TF;
 
     }
 
-    }
+}
