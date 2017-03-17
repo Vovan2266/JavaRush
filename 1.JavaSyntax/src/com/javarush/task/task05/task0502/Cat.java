@@ -1,29 +1,24 @@
 package com.javarush.task.task05.task0502;
 
-/**
- * Created by duotek on 15.02.2017.
- */
-public class Cat {
+/* 
+Реализовать метод fight
+*/
 
-    public String name = "Vaska";
-    public int age = 5;
-    public int weight = 10;
-    public int strength = 6;
+public class Cat {
+    public String name;
+    public int age;
+    public int weight;
+    public int strength;
 
     public Cat() {
-
     }
 
     public boolean fight(Cat anotherCat) {
-        int index = age + weight + strength;
-        int index1 = anotherCat.age + anotherCat.weight + anotherCat.strength;
-        if (index > index1)
-            return true;
-        else
-            return false;
+
+        return ( this.weight>anotherCat.weight && this.strength>anotherCat.strength);
     }
+
     public static void main(String[] args) {
+
     }
-
 }
-

@@ -6,23 +6,20 @@ package com.javarush.task.task05.task0503;
 */
 
 public class Dog {
+    String name;
+    int age;
 
-    public String name = "Lord";
-    public int age = 5;
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
+    public String getName() {
         return name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-
     }
     public int getAge() {
         return age;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setAge (int age){
+        this.age = age;
     }
 
     public static void main(String[] args) {
