@@ -5,9 +5,13 @@ package com.javarush.task.task05.task0508;
 */
 
 public class Person {
-    public String name;
-    public int age;
-    public char sex;
+    String name;
+    int age;
+    char sex;
+
+    public int getAge() {
+        return age;
+    }
 
     public String getName() {
         return name;
@@ -17,16 +21,12 @@ public class Person {
         return sex;
     }
 
-    public int getAge() {
-        return age;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void setSex(char sex) {

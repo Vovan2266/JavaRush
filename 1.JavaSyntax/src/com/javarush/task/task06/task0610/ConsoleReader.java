@@ -9,29 +9,30 @@ import java.io.InputStreamReader;
 
 public class ConsoleReader {
     public static String readString() throws Exception {
-        BufferedReader readString = new BufferedReader(new InputStreamReader(System.in));
-        String a = readString.readLine();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String a = reader.readLine();
         return a;
 
     }
 
     public static int readInt() throws Exception {
-        BufferedReader readInt = new BufferedReader(new InputStreamReader(System.in));
-        int b = Integer.parseInt(readInt.readLine());
-        return b;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int a = Integer.parseInt(reader.readLine());
+        return a;
 
     }
 
     public static double readDouble() throws Exception {
-        BufferedReader readDouble = new BufferedReader(new InputStreamReader(System.in));
-        double c = Double.parseDouble(readDouble.readLine());
-        return c;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        double a = Double.parseDouble(reader.readLine());
+        return a;
     }
 
     public static boolean readBoolean() throws Exception {
-        BufferedReader readDouble = new BufferedReader(new InputStreamReader(System.in));
-        boolean d = Boolean.parseBoolean(readDouble.readLine());
-        return d;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        boolean a = Boolean.parseBoolean(reader.readLine());
+        return a;
+
     }
 
     public static void main(String[] args) {

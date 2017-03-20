@@ -13,7 +13,6 @@ public class StringHelper {
         return result;
     }
 
-
     public static String multiply(String s, int count) {
         String result = "";
         for (int i = 0; i < count; i++) {

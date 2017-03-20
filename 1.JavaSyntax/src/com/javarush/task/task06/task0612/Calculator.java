@@ -6,27 +6,28 @@ package com.javarush.task.task06.task0612;
 
 public class Calculator {
     public static int plus(int a, int b) {
-        return a + b;
+        int sum = a + b;
+        return sum;
     }
 
     public static int minus(int a, int b) {
-
-        return a - b;
+        int min = a - b;
+        return min;
     }
 
     public static int multiply(int a, int b) {
-
-        return a * b;
+        int mul = a * b;
+        return mul;
     }
 
     public static double division(int a, int b) {
-        return (double) a / b;
-        }
-
-
+        double div = a / b;
+        return div;
+    }
 
     public static double percent(int a, int b) {
-        return (double) a * b / 100;
+        double per = (a * b) / 100;
+        return per;
     }
 
     public static void main(String[] args) {

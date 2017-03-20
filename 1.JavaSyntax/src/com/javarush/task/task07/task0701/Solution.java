@@ -17,11 +17,10 @@ public class Solution {
 
     public static int[] initializeArray() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int[]list = new int[20];
-        for (int i = 0; i < 20; i++ ){
+        int list[] = new int[20];
+        for(int i = 0; i < 20; i++){
             list[i] = Integer.parseInt(reader.readLine());
         }
-
         return list;
     }
 

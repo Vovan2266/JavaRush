@@ -9,21 +9,14 @@ public class Cat {
 
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-        System.out.println("Cat was destroyed");
+    protected void finalize() throws Throwable{
+        System.out.println("Cat is destroyed");
     }
+
 }
 
-    class Dog {
-
-
-        protected void finalize() throws Throwable
-        {
-            super.finalize();
-            System.out.println("Dog was destroyed");
-        }
-
+class Dog {
+    protected void finalize() throws Throwable{
+        System.out.println("Dog is destroyed");
     }
-
+}

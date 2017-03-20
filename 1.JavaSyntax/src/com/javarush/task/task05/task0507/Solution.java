@@ -9,29 +9,18 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        double sum = 0;
         int count = 0;
-        int sum = 0;
-        while (true)
-        {
-            int n = Integer.parseInt(reader.readLine());
-            if (n == -1)
-            {
-                double average = (double) sum / count;
-                System.out.println(average);
-                break; //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!выход из цикла
+        while (true){
+            double a = Double.parseDouble(reader.readLine());
+            if(a == -1){
+                break;
             }
-            else
-            {
-                sum = sum + n;
-                count = count + 1;
-            }
+            sum += a;
+            count++;
         }
+        System.out.println(sum / count);
+
     }
 }
-
-
-
-
-
-

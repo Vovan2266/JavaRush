@@ -6,19 +6,19 @@ package com.javarush.task.task06.task0603;
 
 public class Solution {
     public static void main(String[] args) {
-        Cat [] cats = new Cat[50000];
-        Dog [] dogs = new Dog[50000];
-        for (int i = 0; i < 50000; i++){
-            cats[i] = new Cat();
-            dogs[i] = new Dog();
+        for(int i = 1; i < 50000; i++){
+            Cat cat = new Cat();
+            cat = null;
+
         }
-
-
+        for (int i = 1; i < 50000; i++){
+            Dog dog = new Dog();
+            dog = null;
+        }
     }
 }
 
 class Cat {
-    Cat cat = new Cat();
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
