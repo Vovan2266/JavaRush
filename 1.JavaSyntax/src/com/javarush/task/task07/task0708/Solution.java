@@ -9,22 +9,17 @@ import java.util.ArrayList;/*
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList <String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<String>();
         int max = 0;
-        for (int i = 0; i < 5; i++) {
-            list.add(reader.readLine());
-            if (list.get(i).length() > max) {
+        for(int i = 0; i < 5; i++){
+            String s = reader.readLine();
+            list.add(s);
+            if(list.get(i).length() > max)
                 max = list.get(i).length();
-            }
         }
-        for (int i = 0; i < list.size(); i++) {
-
-            if (list.get(i).length() == max) {
-
-                System.out.println(list.get(i));
-
-            }
+        for(int i = 0; i < 5; i++){
+            if(list.get(i).length() == max)
+            System.out.println(list.get(i));
         }
     }
 }
-
